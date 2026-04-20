@@ -10,6 +10,8 @@ public class CarDealerClient {
 
         Car indianCar=new IndianCar("Punch","TATA",1000000);
 
+       carList.add(new ForeginCarAdpater(new ForeginCar("Spectre","Rolls Royse",20000000)));
+
         carList.add(indianCar);
         return carList;
 

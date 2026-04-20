@@ -12,17 +12,17 @@ public class ForeginCar {
             this.price=price;
         }
 
-        @Override
+
         public String getCarName() {
             return  name;
         }
 
-        @Override
+
         public String getCarBrand() {
             return brand;
         }
 
-        @Override
+
         public double getCarPrice() {
             return price;
         }
